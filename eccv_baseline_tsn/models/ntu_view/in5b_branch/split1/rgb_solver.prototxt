@@ -1,0 +1,31 @@
+net: "models/ntu_view/in5b_branch/split1/rgb_train_val.prototxt"
+
+# testing parameter
+test_iter: 1000
+test_interval: 250
+test_initialization: true
+
+# output
+display: 20
+average_loss: 20
+snapshot: 1000
+snapshot_prefix: "models/ntu_view/in5b_branch/caffemodel/rgb_split1"
+debug_info: false
+
+# learning rate
+base_lr: 0.001 #0.001
+lr_policy: "multistep"
+gamma: 0.1
+stepvalue: [12000, 15000]
+max_iter: 30000
+iter_size: 1
+
+# parameter of SGD
+momentum: 0.9
+weight_decay: 0.0005
+clip_gradients: 40
+
+# GPU setting
+solver_mode: GPU
+device_id: [0,1]
+richness: 200

@@ -1,0 +1,11 @@
+1 CheckWatch
+2 CrossArms
+3 ScratchHead
+4 SitDown
+5 GetUp
+6 TurnAround
+7 Walk
+8 Wave
+9 Punch
+10 Kick
+11 PickUp

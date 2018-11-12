@@ -1,0 +1,42 @@
+#!/usr/bin/bash
+
+# pool_proj_bn_rgb/reg3_flow
+
+python analysis/plot_hist.py logs/ixmas_branch_scores/mp_in5b_com_1/test_inception_5b/pool_proj_bn_reg3_flow_split1.npz
+python analysis/plot_hist.py logs/ixmas_branch_scores/mp_in5b_com_1/test_inception_5b/pool_proj_bn_reg3_flow_split2.npz
+python analysis/plot_hist.py logs/ixmas_branch_scores/mp_in5b_com_1/test_inception_5b/pool_proj_bn_reg3_flow_split3.npz
+
+# double_3x3_2_bn_rgb/reg3_flow
+
+python analysis/plot_hist.py logs/ixmas_branch_scores/mp_in5b_com_1/test_inception_5b/double_3x3_2_bn_reg3_flow_split1.npz
+python analysis/plot_hist.py logs/ixmas_branch_scores/mp_in5b_com_1/test_inception_5b/double_3x3_2_bn_reg3_flow_split2.npz
+python analysis/plot_hist.py logs/ixmas_branch_scores/mp_in5b_com_1/test_inception_5b/double_3x3_2_bn_reg3_flow_split3.npz
+
+# 3x3_bn_rgb/reg3_flow
+
+python analysis/plot_hist.py logs/ixmas_branch_scores/mp_in5b_com_1/test_inception_5b/3x3_bn_reg3_flow_split1.npz
+python analysis/plot_hist.py logs/ixmas_branch_scores/mp_in5b_com_1/test_inception_5b/3x3_bn_reg3_flow_split2.npz
+python analysis/plot_hist.py logs/ixmas_branch_scores/mp_in5b_com_1/test_inception_5b/3x3_bn_reg3_flow_split3.npz
+
+# 1x1_bn_rgb/reg3_flow
+
+python analysis/plot_hist.py logs/ixmas_branch_scores/mp_in5b_com_1/test_inception_5b/1x1_bn_reg3_flow_split1.npz
+python analysis/plot_hist.py logs/ixmas_branch_scores/mp_in5b_com_1/test_inception_5b/1x1_bn_reg3_flow_split2.npz
+python analysis/plot_hist.py logs/ixmas_branch_scores/mp_in5b_com_1/test_inception_5b/1x1_bn_reg3_flow_split3.npz
+
+# rgb
+python analysis/plot_hist.py logs/ixmas_branch_scores/mp_in5b_com_1/test_inception_5b/pool_proj_bn_rgb_split3.npz
+python analysis/plot_hist.py logs/ixmas_branch_scores/mp_in5b_com_1/test_inception_5b/pool_proj_bn_rgb_split2.npz
+python analysis/plot_hist.py logs/ixmas_branch_scores/mp_in5b_com_1/test_inception_5b/pool_proj_bn_rgb_split1.npz
+
+python analysis/plot_hist.py logs/ixmas_branch_scores/mp_in5b_com_1/test_inception_5b/double_3x3_2_bn_rgb_split3.npz
+python analysis/plot_hist.py logs/ixmas_branch_scores/mp_in5b_com_1/test_inception_5b/double_3x3_2_bn_rgb_split2.npz
+python analysis/plot_hist.py logs/ixmas_branch_scores/mp_in5b_com_1/test_inception_5b/double_3x3_2_bn_rgb_split1.npz
+
+python analysis/plot_hist.py logs/ixmas_branch_scores/mp_in5b_com_1/test_inception_5b/3x3_bn_rgb_split3.npz
+python analysis/plot_hist.py logs/ixmas_branch_scores/mp_in5b_com_1/test_inception_5b/3x3_bn_rgb_split2.npz
+python analysis/plot_hist.py logs/ixmas_branch_scores/mp_in5b_com_1/test_inception_5b/3x3_bn_rgb_split1.npz
+
+python analysis/plot_hist.py logs/ixmas_branch_scores/mp_in5b_com_1/test_inception_5b/1x1_bn_rgb_split3.npz
+python analysis/plot_hist.py logs/ixmas_branch_scores/mp_in5b_com_1/test_inception_5b/1x1_bn_rgb_split2.npz
+python analysis/plot_hist.py logs/ixmas_branch_scores/mp_in5b_com_1/test_inception_5b/1x1_bn_rgb_split1.npz
